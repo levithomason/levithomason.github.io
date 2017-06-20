@@ -1,0 +1,25 @@
+{
+  "name": "levithomason.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --no-browser --watch=img,index.html,main.css,main.js",
+    "build": "mustache index.json index.mustache > index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levithomason/levithomason.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levithomason/levithomason.github.io/issues"
+  },
+  "homepage": "https://github.com/levithomason/levithomason.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "mustache": "^4.2.0"
+  }
+}
