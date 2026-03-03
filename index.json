@@ -89,6 +89,7 @@
       "when": "2015 - 2017",
       "why": "My team needed a React port of Semantic UI. The existing ports weren't up to standard, so I built one.",
       "how": "Rewrote Semantic UI's components in React from scratch. Originally named Stardust, it was chosen by the Semantic Org to become the official React port.",
+      "impact": "Adopted by Amazon Publishing, Netflix's Edge Developer Experience team, Netflix's FlameScope, and Microsoft Teams prototyping.",
       "github": "https://github.com/Semantic-Org/Semantic-UI-React",
       "docs": "https://react.semantic-ui.com",
       "demo": "https://react.semantic-ui.com/elements/button#button-example-button",
