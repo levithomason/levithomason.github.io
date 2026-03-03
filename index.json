@@ -22,7 +22,7 @@
       "name": "Rubber Ducky",
       "when": "2023 - 2026",
       "why": "Convinced LLMs were the new transistors, I set out to build the future of the developer experience from the ground up.",
-      "how": "An agentic developer tool &mdash; local server powers CLI and UI with full system access (fs, browser, APIs). Framework-free build, model-agnostic (Anthropic, OpenAI, Azure, Ollama), pushing the limits of LLM-driven automation.",
+      "how": "An agentic developer tool. Local server powers CLI and UI with full system access (fs, browser, APIs). Framework-free build, model-agnostic (Anthropic, OpenAI, Azure, Ollama), pushing the limits of LLM-driven automation.",
       "impact": "Organically adopted by 2,000+ engineers across 40+ Microsoft orgs. Became officially recommended tooling alongside GitHub Copilot and Claude Code.",
       "github": null,
       "docs": null,
@@ -56,13 +56,7 @@
       "docs": "https://open-ui.org",
       "demo": null,
       "image": "/img/preview-openui.jpg",
-      "technologies": [
-        "W3C",
-        "WHATWG",
-        "CSS WG",
-        "HTML",
-        "CSS"
-      ]
+      "technologies": null
     },
     {
       "name": "Fluent UI React",
@@ -89,7 +83,7 @@
       "when": "2015 - 2017",
       "why": "My team needed a React port of Semantic UI. The existing ports weren't up to standard, so I built one.",
       "how": "Rewrote Semantic UI's components in React from scratch. Originally named Stardust, it was chosen by the Semantic Org to become the official React port.",
-      "impact": "Adopted by Amazon Publishing, Netflix's Edge Developer Experience team, Netflix's FlameScope, and Microsoft Teams prototyping.",
+      "impact": "GitHub top 30 project. 500k+ downloads/month. Adopted by Amazon Publishing, Netflix's Edge Developer Experience team, Netflix's FlameScope, and Microsoft Teams prototyping.",
       "github": "https://github.com/Semantic-Org/Semantic-UI-React",
       "docs": "https://react.semantic-ui.com",
       "demo": "https://react.semantic-ui.com/elements/button#button-example-button",
