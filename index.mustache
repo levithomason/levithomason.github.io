@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="I'm Levi, a senior web developer.  Check out my work, I'd love to chat." />
+  <meta name="description" content="I'm Levi, a principal software engineer. I build agentic tools, design systems, and web standards." />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>Levi Thomason - Senior Web Developer</title>
+  <title>Levi Thomason - Principal Software Engineer</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,11 +28,12 @@
     <div class="container">
       <h1>Projects</h1>
       <p class="lead">
-        Here's a sample of my work.
-        There's a ton more, <a href="#contact">reach out</a> if you'd like to see it.
+        A selection of what I've built.
+        <a href="#contact">Reach out</a> if you'd like to see more.
       </p>
       <div class="projects">
         {{#projects}}
+        {{^disabled}}
           <div class="project">
             <div class="preview">
               <img src="{{image}}" alt="{{name}} screenshot">
@@ -77,6 +78,7 @@
               </div>
             </div>
           </div>
+        {{/disabled}}
         {{/projects}}
       </div>
     </div>
@@ -86,7 +88,7 @@
     <h1>Open Source</h1>
     <div class="container">
       <p class="lead">
-        I'm active in the community. See more in my
+        I contribute upstream. See more in my
         <a href="https://github.com/levithomason?language=&page=1&q=&tab=repositories&type=fork">
           <i class="fa fa-code-fork"></i> forks
         </a>
@@ -155,8 +157,8 @@
     <div class="container">
       <h1>Organizations</h1>
       <p class="lead">
-        I'm a team leader and community leader.
-        I enjoy bringing people together and fostering collective growth.
+        I bring people together.
+        I've built communities and mentorship programs around collaboration and craft.
       </p>
       <div class="organizations">
         {{#organizations}}
@@ -228,11 +230,10 @@
       <h1>Contact</h1>
       <p class="lead">
         I'd <strong>love</strong> to chat.
-        I'm looking for <strong>problems worth solving</strong>,
-        a place that will <strong>challenge me</strong>, and a place where I can <strong>grow</strong>.
+        I'm looking for <strong>hard problems</strong>, <strong>high stakes</strong>, and people who <strong>ship</strong>.
         <br>
         <br>
-        Let's do something awesome.
+        Let's build something that matters.
       </p>
       <p>
         <a class="button" href="mailto:me@levithomason.com">
