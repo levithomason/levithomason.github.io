@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --no-browser --watch=img,index.html,main.css,main.js",
+    "start": "browser-sync start --server --no-open --files 'img,index.html,main.css,main.js'",
     "build": "mustache index.json index.mustache > index.html"
   },
   "repository": {
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/levithomason/levithomason.github.io#readme",
   "dependencies": {},
   "devDependencies": {
-    "live-server": "^1.2.0",
+    "browser-sync": "^3.0.4",
     "mustache": "^4.2.0"
   }
 }

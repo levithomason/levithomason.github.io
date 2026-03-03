@@ -19,6 +19,33 @@
   ],
   "projects": [
     {
+      "name": "Rubber Ducky",
+      "when": "2023 - 2026",
+      "why": "Convicted LLMs were the new transistors, I wanted to build the future computer and software experience.",
+      "how": "Local server powers CLI and UI. Ground-up framework-free build. Support all models. Stream as many data sources in and out as possible (read/write fs, browser, APIs, ...). Push limits of automation.",
+      "github": "(Microsoft internal)",
+      "docs": "(Microsoft internal)",
+      "demo": "(Microsoft internal)",
+      "image": "/img/preview-ducky.jpg",
+      "technologies": [
+        "Docker",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Neo4j",
+        "sqlite",
+        "Anthropic AI SDK / API",
+        "Azure",
+        "OpenAI",
+        "Ollama",
+        "React",
+        "Cytoscape.js",
+        "Webpack",
+        "yargs",
+        "pkg"
+      ]
+    },
+    {
       "name": "Semantic UI React",
       "when": "2015 - 2017",
       "why": "Work required a React port of Semantic UI. The existing ports were not satisfactory.",
