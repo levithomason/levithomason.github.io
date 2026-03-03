@@ -28,7 +28,7 @@
     <div class="container">
       <h1>Projects</h1>
       <p class="lead">
-        Here's a sample of my public work.
+        Here's a sample of my work.
         There's a ton more, <a href="#contact">reach out</a> if you'd like to see it.
       </p>
       <div class="projects">
@@ -48,6 +48,11 @@
               <p class="answer">
                 <strong class="question">How?</strong> {{how}}
               </p>
+              {{#impact}}
+              <p class="answer">
+                <strong class="question">Impact:</strong> {{impact}}
+              </p>
+              {{/impact}}
               <p class="answer">
                 <strong class="question">Technologies:</strong> {{#technologies}}{{.}}, {{/technologies}} and many
                 others.
@@ -91,49 +96,55 @@
         <div class="repo">
           <h4>
             <a href="https://github.com/karma-runner/karma">
-              <i class="fa fa-github"></i> Karma
+              <i class="fa fa-github"></i> karma-runner/karma
             </a>
           </h4>
+          <div class="description">Test runner for JavaScript.</div>
           <div class="role">Merged some features.</div>
         </div>
         <div class="repo">
           <h4>
             <a href="https://github.com/Semantic-Org">
-              <i class="fa fa-github"></i> Semantic Org
+              <i class="fa fa-github"></i> Semantic-Org
             </a>
           </h4>
+          <div class="description">UI component framework.</div>
           <div class="role">I'm an admin.</div>
         </div>
         <div class="repo">
           <h4>
             <a href="https://github.com/less/less.js">
-              <i class="fa fa-github"></i> LESS
+              <i class="fa fa-github"></i> less/less.js
             </a>
           </h4>
+          <div class="description">CSS preprocessor.</div>
           <div class="role">Merged some features.</div>
         </div>
         <div class="repo">
           <h4>
             <a href="https://github.com/mikeal/watch">
-              <i class="fa fa-github"></i> watch
+              <i class="fa fa-github"></i> mikeal/watch
             </a>
           </h4>
+          <div class="description">File watcher utility for Node.js.</div>
           <div class="role">I'm a contributor.</div>
         </div>
         <div class="repo">
           <h4>
             <a href="https://github.com/shelljs/shx">
-              <i class="fa fa-github"></i> shx
+              <i class="fa fa-github"></i> shelljs/shx
             </a>
           </h4>
+          <div class="description">Unix shell commands for Node.js.</div>
           <div class="role">Initial setup and tests.</div>
         </div>
         <div class="repo">
           <h4>
             <a href="https://github.com/bgrins/TinyColor">
-              <i class="fa fa-github"></i> TinyColor
+              <i class="fa fa-github"></i> bgrins/TinyColor
             </a>
           </h4>
+          <div class="description">Color manipulation and conversion library.</div>
           <div class="role">Merged many features and helped plan the v1 API.</div>
         </div>
       </div>

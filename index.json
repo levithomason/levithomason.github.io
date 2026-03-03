@@ -23,9 +23,10 @@
       "when": "2023 - 2026",
       "why": "Convicted LLMs were the new transistors, I wanted to build the future computer and software experience.",
       "how": "Local server powers CLI and UI. Ground-up framework-free build. Support all models. Stream as many data sources in and out as possible (read/write fs, browser, APIs, ...). Push limits of automation.",
-      "github": "(Microsoft internal)",
-      "docs": "(Microsoft internal)",
-      "demo": "(Microsoft internal)",
+      "impact": "Organically adopted by 2,000+ engineers across 40+ Microsoft orgs. Became officially recommended tooling alongside GitHub Copilot and Claude Code.",
+      "github": null,
+      "docs": null,
+      "demo": null,
       "image": "/img/preview-ducky.jpg",
       "technologies": [
         "Docker",
@@ -43,6 +44,44 @@
         "Webpack",
         "yargs",
         "pkg"
+      ]
+    },
+    {
+      "name": "Open UI",
+      "when": "2019 - 2020",
+      "why": "Wanted to remove the need to create UI frameworks by downleveling UI design system needs into the platform.",
+      "how": "W3C Community Group, cross enterprise. Analyze top UI design systems and frameworks, synthesize their needs into platform specs and ship in browsers. Members from Google, Apple, Salesforce, Mozilla, Microsoft, Shopify, Adobe, and more.",
+      "impact": "After I scaffolded the system and process, immediate success with memberships and adoption. Ongoing specifications and browser updates continue. Grew to lead efforts in WHATWG and CSS WG.",
+      "github": "https://github.com/openui/open-ui",
+      "docs": "https://open-ui.org",
+      "demo": null,
+      "image": "/img/preview-openui.jpg",
+      "technologies": [
+        "W3C",
+        "WHATWG",
+        "CSS WG",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Fluent UI React",
+      "when": "2018 - 2022",
+      "why": "As Microsoft Teams' framework lead, I needed a design system and UI library which could unify Teams and M365 products.",
+      "how": "Created a cross-org cross-product design to code flow to support legacy, enable the future, and achieve >30% performance increase in the process.",
+      "impact": "Powers Microsoft Teams, OneDrive, SharePoint, Word, Excel, PowerPoint, and other products. 20k GitHub stars and used in the open source as well.",
+      "github": "https://github.com/microsoft/fluentui",
+      "docs": "https://react.fluentui.dev",
+      "demo": null,
+      "image": "/img/preview-fluentui.jpg",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Storybook",
+        "CSS-in-JS (Griffel)",
+        "Accessibility",
+        "Focus Management",
+        "Design Tokens"
       ]
     },
     {

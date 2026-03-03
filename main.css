@@ -168,6 +168,10 @@ img {
     width: 50%; }
     .open-source .repo .name {
       font-weight: bold; }
+    .open-source .repo .description {
+      font-style: italic;
+      color: #8a8478;
+      font-size: 1.1em; }
     .open-source .repo .role {
       margin-left: 0.375em;
       padding-left: 0.5em;
