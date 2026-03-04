@@ -93,12 +93,12 @@
                 <strong class="question">Impact:</strong> {{impact}}
               </p>
               {{/impact}}
-              {{#technologies}}
+              {{#technologies.length}}
               <p class="answer">
                 <strong class="question">Technologies:</strong> {{#technologies}}{{.}}, {{/technologies}} and many
                 others.
               </p>
-              {{/technologies}}
+              {{/technologies.length}}
 
               <div class="links">
                 {{#github}}
